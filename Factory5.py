@@ -35,7 +35,7 @@ def my_choices(choice_list: List[int], k: int, weight_list: List[float] = None) 
     """
     choices function without weight_list -> algorithm complex O(k)
     choices function with weight_list -> algorithm complex O(10^k)
-    not mutated data
+    does not change data
 
 
     :param choice_list: data for randomize elements ex -> [1, 3, 4, 3, 3, 9]
