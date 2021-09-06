@@ -34,7 +34,7 @@ def wrapper_for_cycle(cp_choice_list: List[int], len_choice_list: int, first_ind
 def my_choices(choice_list: List[int], k: int, weight_list: List[float] = None) -> AnswerList:
     """
     choices function without weight_list -> algorithm complex O(k)
-    choices function with weight_list -> algorithm complex O(10^k)
+    choices function with weight_list -> algorithm complex O(10k)
     does not change data
 
 
